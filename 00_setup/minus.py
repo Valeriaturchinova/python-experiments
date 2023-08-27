@@ -4,7 +4,7 @@
 
 print("I'm calculator")
  
-first = input("Enter first number: ")
+first: str = input("Enter first number: ")
 second: str = input("Enter second number: ")
  
 result: int = int(first) - int(second)
